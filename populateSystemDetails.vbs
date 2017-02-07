@@ -246,5 +246,3 @@ WScript.Echo complete
 
 Dim wsh
 Set wsh=WScript.CreateObject("WScript.Shell")
-
-wsh.Run "http://10.10.102.30:80/WKAssetTool/SystemDetailsDisplay.aspx?assetId="&assetId&"&LocalHD="&TotalHD&"&NwkHD="&TotalNHD&"&RemHD="&TotalRHD&"&RAM="&TRAM&"&IP="&IPAddress&"&EmpId="&EmpId&"&EmpName="&EmpName&"&ProType="&ProcessorType&"&OStype="&OStype&"&OSName="&OSName
